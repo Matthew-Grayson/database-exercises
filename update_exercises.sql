@@ -1,3 +1,4 @@
+use mattg;
 SELECT * FROM albums;
 # Make all the albums 10 times more popular (sales * 10)
 UPDATE albums SET sales = sales * 10;
