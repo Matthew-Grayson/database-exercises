@@ -1,5 +1,7 @@
+use mattg;
+
 TRUNCATE albums;
-INSERT INTO albums (artist, name, release_date, genre, sales)
+INSERT INTO albums (artist, name , release_date, genre, sales)
 VALUES ('Michael Jackson', 'Thriller', '1982', 'Pop, post-disco, funk, rock', '50.2'),
        ('AC/DC', 'Back in Black', '1980', 'Hard rock', '30.1'),
        ('Whitney Houston', 'The Bodyguard', '1992', 'R&B, soul, pop, soundtrack', '28.7'),
